@@ -6,7 +6,7 @@ namespace Ecommerce.API.Controllers
     {
         public string MSNTexto()
         {
-            return "Ha ocurrido un error desconocido";
+            return "Mensaje de bienvenida";
         }
     }
 }
