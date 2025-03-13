@@ -6,7 +6,7 @@ namespace Ecommerce.API.Controllers
     {
         public string MSNTexto()
         {
-            return "Nuevo mensaje desde la corrección";
+            return "Nuevo mensaje desde la corrección.";
         }
     }
 }
