@@ -4,9 +4,10 @@ namespace Ecommerce.API.Controllers
 {
     public class HomeController : Controller
     {
-        public string MSNTexto()
+        [HttpGet("/")]
+        public IActionResult Index()
         {
-            return "Nuevo mensaje desde la corrección";
+            return View();
         }
     }
 }
